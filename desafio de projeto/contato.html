@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="index.html" class="item">Página Inicial</a></li><br/>
+                <li><a href="about.html" class="item">Sobre a clínica</a></li><br/>
+                <li><a href="atendimento.html" class="item">atendimento</a></li><br/>
+                <li><a href="#" class="selecionado">contato</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+                <img class="img1" src="./imagens/banner1.png" width="100%">
+            </div>
+            <div class="content">
+                <p >Telefone:+55XXXXXXX</p>
+                <p >Whatsapp:+55XXXXXXX</p>
+                <p >Av. Santos Dumont, 2087 - Aldeota, Fortaleza - CE, 60150-160</p>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3981.3488317114316!2d-38.50756968503029!3d-3.733932997283363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwNDQnMDIuMiJTIDM4wrAzMCcxOS40Ilc!5e0!3m2!1spt-BR!2sbr!4v1677338282378!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form id="form" name="contato" target="_blank" autocomplete="off" Method="post" onsubmit="alert('formulário enviado');" action="https://darllisonluiz.com.br/signup">
+                    <fieldset><legend><b>emtre em contato</b></legend>
+                    <label>nome:</label> <input type="text" name="name" /><br>
+                    <label>e-mail:</label> <input type="email" name="email"><br>
+                    <label>assunto:</label> <input type="text" name="assunto"><br>
+                    <label>mensagem:</label><textarea placeholder="digite sua mensagem" rows="5" cols="20"></textarea><br/>
+                    <button type="submit">enviar</button>
+                    <button typ="reset">limpar</button></fieldset>
+            </form>
+            </div>
+            <div class="footer">
+                <hr/>
+                <p></p>Endereço: Av. Santos Dumont, 2087 - Aldeota, Fortaleza - CE, 60150-160 </p>
+                <a href="tel:+5591981849807">Telefone</a>
+                
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
